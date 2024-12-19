@@ -1,0 +1,22 @@
+{
+  "name": "nodejs_app",
+  "version": "1.0.0",
+  "description": "Node.js integration with native lib",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marekkijo/nodejs-with-native-lib.git"
+  },
+  "author": "Marek Kijo <marekkijo@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marekkijo/nodejs-with-native-lib/issues"
+  },
+  "homepage": "https://github.com/marekkijo/nodejs-with-native-lib#readme",
+  "devDependencies": {
+    "koffi": "^2.9.2"
+  }
+}
