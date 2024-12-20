@@ -4,7 +4,8 @@
   "description": "Node.js integration with native lib",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "start_koffi_get_started": "node koffi_get_started.js"
   },
   "repository": {
     "type": "git",
