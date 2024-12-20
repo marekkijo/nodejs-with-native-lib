@@ -1,0 +1,28 @@
+---
+Language: Cpp
+BasedOnStyle: LLVM
+AlignArrayOfStructures: Right
+AlignEscapedNewlines: Left
+AllowAllArgumentsOnNextLine: false
+AllowAllParametersOfDeclarationOnNextLine: false
+AllowShortBlocksOnASingleLine: Empty
+AllowShortEnumsOnASingleLine: false
+AlwaysBreakTemplateDeclarations: Yes
+BinPackArguments: false
+BinPackParameters: false
+BreakConstructorInitializers: BeforeComma
+BreakInheritanceList: BeforeComma
+ColumnLimit: 120
+CompactNamespaces: true
+IndentGotoLabels: false
+IndentPPDirectives: AfterHash
+InsertBraces: true
+InsertNewlineAtEOF: true
+KeepEmptyLinesAtTheStartOfBlocks: false
+PackConstructorInitializers: Never
+PPIndentWidth: 1
+QualifierAlignment: Left
+SeparateDefinitionBlocks: Always
+ShortNamespaceLines: 0
+SpaceAfterTemplateKeyword: false
+...

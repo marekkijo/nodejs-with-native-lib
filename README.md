@@ -6,14 +6,27 @@ Integration of node.js with native library.
 
 ### Run
 
+#### native_lib
+
+- on Linux
 ```bash
-npm install
-npm start
+cmake -Bbuild -DCMAKE_BUILD_TYPE=Release
+cmake --build build
 ```
 
-or 
+- on Windows
+```bash
+cmake -Bbuild
+cmake --build build --config Release
+```
+
+#### nodejs
 
 ```bash
+cd nodejs_app
 npm install
+
+npm start
+# or
 npm run start_koffi_get_started
 ```
